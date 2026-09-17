@@ -1,0 +1,22 @@
+{
+  "name": "backlog-tree",
+  "version": "0.1.0",
+  "description": "Initiative tree companion for an existing Backlog.md project",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "backlog-tree": "bin/backlog-tree.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/backlog-tree.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "neo-neo-bblessed": "1.0.10",
+    "yaml": "2.9.1"
+  },
+  "license": "MIT"
+}
